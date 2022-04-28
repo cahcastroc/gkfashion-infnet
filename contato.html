@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assessment Interfaces com HTML e CSS">
+    <meta name="keywords" content="HTML, CSS">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Murecho&display=swap" rel="stylesheet">
+    <title>Contato - GK Fashion</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1><a href="index.html" target="_self">Gk Fashion</a></h1>
+            <p class="sacola">Nenhum item na sacola de compras</p>
+            <nav class="menu-principal">
+                <ul>
+                    <li><a href="#" title="Sua Conta">Sua Conta</a></li>
+                    <li><a href="#" title="Lista de Desejos">Lista de Desejos</a></li>
+                    <li><a href="cartao_fidelidade.html" title="Cartão Fidelidade">Cartão Fidelidade</a></li>
+                    <li><a href="sobre.html" title="Sobre">Sobre</a></li>
+                    <li><a href="contato.html" title="Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="contato">
+                <h2>Entre em contato</h2>
+                <div class="formulario">
+                    <form action="#" method="POST">
+                        <div id="nome-form">
+                            <label>Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Digite o seu nome: " required>
+                        </div>
+                        <div id="email-form">
+                            <label>E-mail:</label>
+                            <input type="email" name="e-mail" id="e-mail" placeholder="seuemail@email.com " required
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                        </div>
+                        <div id="motivo-form">
+                            <select name="select">
+                                <option value="">Selecione o motivo...</option>
+                                <option value="sugestao">Sugestão</option>
+                                <option value="critica">Crítica</option>
+                                <option value="elogio">Elogio</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        <div id="comentario-form">
+                            <label>Comentários:</label>
+                            <textarea name="message" placeholder="Insira a sua mensagem..." required></textarea>
+                        </div>
+                        <div class="btn-form">
+                            <button type="submit" id="bt-formulario">Enviar</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </section>
+
+        </main>
+        
+        <footer class="caixa-footer">
+            <div class="logo-rodape">
+                <img src="img/logo_rodape.png" alt="Logo Gk Fashion" title="Logo da marca GK Fashion">
+            </div>
+            <div class="copyright">
+                <p> &copy; Copyright GK Fashion </p>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="http://www.facebook.com/gkfashion" title="Facebook GkFashion"
+                            target="_blank">Facebook</a></li>
+                    <li><a href="http://plus.google.com/gkfashion" title="Google + GkFashion" target="_blank">Google
+                            +</a></li>
+                    <li><a href="http://www.twitter.com/gkfashion" title="Twitter GkFashion" target="_blank">Twitter</a>
+                    </li>
+
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

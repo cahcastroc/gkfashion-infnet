@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assessment Interfaces com HTML e CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Murecho&display=swap" rel="stylesheet">
+    <title>GK Fashion</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1><a href="index.html" target="_self">Gk Fashion</a></h1>
+            <p class="sacola">Nenhum item na sacola de compras</p>
+            <nav class="menu-principal">
+                <ul>                    
+                    <li><a href="#" title="Sua Conta">Sua Conta</a></li>
+                    <li><a href="#" title="Lista de Desejos">Lista de Desejos</a></li>
+                    <li><a href="cartao_fidelidade.html" title="Cartão Fidelidade">Cartão Fidelidade</a></li>
+                    <li><a href="sobre.html" title="Sobre">Sobre</a></li>
+                    <li><a href="contato.html" title="Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="caixa-destaque">
+                <section class="busca">
+                    <h2>Busca</h2>
+                    <form action="#" method="post">
+                        <label for="busca"></label>
+                        <input type="search" id="busca" name="busca">
+                        <button type="submit" id="procurar"><img src="img/busca.png" title ="busca" alt="Buscar"/></button>
+                      </form>
+                </section>
+                <section class ="menu-departamentos">
+                    <h2>Departamentos</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#" title="Blusas e Camisas">Blusas e Camisas</a>
+                                <ul>
+                                    <li><a href="#" title="Manga curta">Manga curta</a></li>
+                                    <li><a href="#" title="Manga comprida">Manga comprida</a></li>
+                                    <li><a href="#" title="Camisa social">Camisa social</a></li>
+                                    <li><a href="#" title="Camisa casual">Camisa casual</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" title="Calças">Calças</a></li>
+                            <li><a href="#" title="Saias">Saias</a></li>
+                            <li><a href="#" title="Vestidos">Vestidos</a></li>
+                            <li><a href="#" title="Sapatos">Sapatos</a></li>
+                            <li><a href="#" title="Bolsas e Carteiras">Bolsas e Carteiras</a></li>
+                            <li><a href="#" title="Acessórios">Acessórios</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <div class="img-destaque">
+                    <img src="img/destaque-home.png" alt="Imagem Destaque Home" title="Destaque Home">
+                </div>
+            </div>
+            <div class="caixa-painel">
+                <section class="painel novidades">
+                    <h2>Novidades</h2>
+                    <ol>
+                        <li><a href="#">
+                            <figure> 
+                            <img src="img/miniaturas/miniatura2.png" alt="Camiseta Lilás Caveira" title="Camiseta Caveira">
+                            <figcaption>Camiseta Caveira <br> R$ 80,00</figcaption>
+                            </figure>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                            <figure> 
+                            <img src="img/miniaturas/miniatura4.png" alt="Blusa inverno bordô" title="Blusa Puff Inverno">
+                            <figcaption>Blusa Puff <br> R$ 150,00</figcaption>
+                            </figure>
+                            </a>
+                        </li> 
+                        <li><a href="#">
+                            <figure> 
+                            <img src="img/miniaturas/miniatura8.png" alt="Camiseta Básica Verde" title="Camiseta Básica">
+                            <figcaption>Camiseta Básica <br> R$ 60,00</figcaption>
+                            </figure>
+                            </a>
+                        </li> 
+                        <li><a href="#">
+                            <figure> 
+                            <img src="img/miniaturas/miniatura9.png" alt="Camisa de frio Xadrez" title="Camisa Xadrez">
+                            <figcaption>Camisa Xadrez <br> R$140,00</figcaption>
+                            </figure>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                            <figure> 
+                            <img src="img/miniaturas/miniatura14.png" alt="Bata social azul" title="Bata social">
+                            <figcaption>Bata Social <br> R$ 90,00</figcaption>
+                            </figure>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                            <figure> 
+                            <img src="img/miniaturas/miniatura15.png" alt="Vestido azul com manga ciganinha" title="Vestido Ciganinha">
+                            <figcaption>Vestido Ciganinha <br> R$ 100,00 </figcaption>
+                            </figure>
+                            </a>
+                        </li>                               
+                    </ol>
+                </section>
+                    <section class="painel mais-vendidos">
+                        <h2>Mais Vendidos</h2>
+                        <ol>
+                            <li><a href="#">
+                                <figure> 
+                                <img src="img/miniaturas/miniatura8.png" alt="Camiseta Básica Verde" title="Camiseta Básica">
+                                <figcaption>Camiseta Básica <br> R$ 60,00</figcaption>
+                                </figure>
+                                </a>
+                            </li> 
+                            <li><a href="#">
+                                <figure> 
+                                <img src="img/miniaturas/miniatura9.png" alt="Camisa de frio Xadrez" title="Camisa Xadrez">
+                                <figcaption>Camisa Xadrez <br> R$140,00</figcaption>
+                                </figure>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                <figure> 
+                                <img src="img/miniaturas/miniatura1.png" alt="Blazer Floral" title="Blazer Floral">
+                                <figcaption>Blazer Floral <br> R$ 110,00</figcaption>
+                                </figure>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                <figure> 
+                                <img src="img/miniaturas/miniatura10.png" alt="Blusa inverno rosê" title="Blusa inverno rosê">
+                                <figcaption>Blusa Rosê <br> R$ 90,00</figcaption>
+                                </figure>
+                                </a>
+                            </li> 
+                            <li><a href="#">
+                                <figure> 
+                                <img src="img/miniaturas/miniatura15.png" alt="Vestido azul com manga ciganinha" title="Vestido Ciganinha">
+                                <figcaption>Vestido Ciganinha <br> R$ 100,00 </figcaption>
+                                </figure>
+                                </a>
+                            </li>                             
+                            <li><a href="#">
+                                <figure> 
+                                <img src="img/miniaturas/miniatura14.png" alt="Bata social azul" title="Bata social">
+                                <figcaption>Bata Social <br> R$ 90,00</figcaption>
+                                </figure>
+                                </a>
+                            </li>
+                              
+                        </ol>
+                        </section>
+                
+            </div>
+     </main>
+     <footer class="caixa-footer">
+        <div class="logo-rodape">
+            <img src="img/logo_rodape.png" alt="Logo Gk Fashion" title="Logo da marca GK Fashion">
+        </div>
+        <div class="copyright">
+         <p> &copy; Copyright GK Fashion </p>
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href="http://www.facebook.com/gkfashion" title="Facebook GkFashion" target="_blank">Facebook</a></li>
+                <li><a href="http://plus.google.com/gkfashion" title="Google + GkFashion" target="_blank">Google +</a></li>
+                <li><a href="http://www.twitter.com/gkfashion" title="Twitter GkFashion" target="_blank">Twitter</a></li>
+
+            </ul>
+        </div>
+    </footer>
+    </div>
+</body> 
+</html>            
